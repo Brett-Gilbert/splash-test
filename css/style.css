@@ -1,25 +1,5 @@
 /* video background properties */
 
-#background {
-	/*opacity: .75;*/
-	position: fixed;
-	top: 50%;
-	left: 50%;
-	min-width: 100%;
-	min-height: 100%;
-	margin: 0 auto;
-	width: auto;
-	height: auto;
-	z-index: -100;
-	-webkit-transform: translateX(-50%) translateY(-50%);
-	transform: translateX(-50%) translateY(-50%);
-	background: url(/images/screenshot.jpg) no-repeat;
-	background-size: cover;
-}
-
-.container h1 {
-	color: white;
-}
 
 /* sticky footer properties */
 
@@ -106,5 +86,38 @@
 	.logo-resize {
 		max-width: 100% !important;
 		max-height: 100% !important;
+	}
+}
+@media screen and (min-width: 768px) {
+	#background {
+		/*opacity: .75;*/
+		position: fixed;
+		top: 50%;
+		left: 50%;
+		min-width: 100%;
+		min-height: 100%;
+		margin: 0 auto;
+		width: auto;
+		height: auto;
+		z-index: -100;
+		-webkit-transform: translateX(-50%) translateY(-50%);
+		transform: translateX(-50%) translateY(-50%);
+		background: url("../images/screenshot.jpg") no-repeat;
+		background-size: cover;
+	}
+
+	.container h1 {
+		color: white;
+	}
+}
+@media screen and (max-width: 768px) {
+	#background {
+		display: none;
+	}
+	body {
+		background-image: url("../images/test.jpg") !important;
+		background-size: cover !important;
+		background-repeat: no-repeat !important;
+		background-position: center center !important;
 	}
 }

@@ -68,7 +68,7 @@
 					</div>
 				</div>
 			</div>
-			<video autoplay loop muted poster="/images/screenshot.jpg" id="background">
+			<video autoplay loop muted poster="images/screenshot.jpg" id="background">
 				<source src="video/backgroundmovie.mp4" type="video/mp4">
 			</video>
 		</main>
