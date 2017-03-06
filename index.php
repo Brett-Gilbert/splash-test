@@ -46,27 +46,23 @@
 	<body class="sfooter">
 
 		<main class="sfooter-content">
-			<div class="logo-search">
+			<div class=" container logo-search">
 				<div class="logo text-center">
 					<img class="logo-resize" src="images/abqueryname.png" alt="abquery logo">
 				</div>
-				<div class="container text-center">
-					<div class="row">
-						<div class="col-sm-6 col-sm-offset-3">
-							<!-- <h2 class="search-text">Please Input an ABQ Address</h2> -->
-							<div id="custom-search-input">
-								<div class="input-group col-md-12">
-									<input type="text" class="form-control input-lg" placeholder="ABQ Address" />
-									<span class="input-group-btn">
-                        <button class="btn btn-info btn-lg" type="button">
-                            <i class="glyphicon glyphicon-search"></i>
-                        </button>
-                    </span>
-								</div>
+				<form class="col-sm-8 col-sm-offset-2">
+					<div class="form-group">
+						<label for="searchAddress" class="sr-only">Search an Albuqueruqe Address</label>
+						<div class="input-group">
+							<input id="searchAddress" name="searchAddress" type="text" class="form-control input-lg" placeholder="ABQ Address"/>
+							<div class="input-group-btn">
+								<button class="btn btn-info btn-lg" type="button">
+									<i class="glyphicon glyphicon-search"></i>
+								</button>
 							</div>
 						</div>
 					</div>
-				</div>
+				</form>
 			</div>
 			<video autoplay loop muted poster="images/screenshot.jpg" id="background">
 				<source src="video/backgroundmovie.mp4" type="video/mp4">
