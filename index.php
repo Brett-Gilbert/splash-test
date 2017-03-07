@@ -40,11 +40,9 @@
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
 				  integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
 				  crossorigin="anonymous"></script>
-
 	</head>
 
 	<body class="sfooter">
-
 		<main class="sfooter-content">
 			<div class=" container logo-search">
 				<div class="logo text-center">
@@ -54,9 +52,9 @@
 					<div class="form-group">
 						<label for="searchAddress" class="sr-only">Search an Albuqueruqe Address</label>
 						<div class="input-group">
-							<input id="searchAddress" name="searchAddress" type="text" class="form-control input-lg" placeholder="ABQ Address"/>
+							<input id="searchAddress" name="searchAddress" type="text" class="form-control input-lg" placeholder="Enter an ABQ address"/>
 							<div class="input-group-btn">
-								<button class="btn btn-info btn-lg" type="button">
+								<button class="btn btn-default btn-lg" type="button">
 									<i class="glyphicon glyphicon-search"></i>
 								</button>
 							</div>
